@@ -10,7 +10,7 @@ class DragItem extends StatefulWidget {
     this.key,
     this.isDraggable = true,
     this.isDropable = true,
-    /*required*/ required this.child,
+    required this.child,
   });
 
   @override
